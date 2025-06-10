@@ -38,8 +38,11 @@ var PRESETS = map[string]QueryPreset{
 	"sweden": QueryPreset{
 		include: []string{"sweden", "sverige", "stockholm", "malmö", "uppsala", "göteborg", "gothenburg"},
 	},
+	"suriname": QueryPreset{
+		include: []string{"suriname", "paramaribo"},
+	},
 	"norway": QueryPreset{
-		include: []string{"norway", "norge", "oslo", "bergen", "trondheim"},
+		include: []string{"norway", "norge", "oslo", "bergen", "trondheim", "stavanger", "drammen", "fredrikstad", "kristiansand", "tromsø", "sandnes", "ålesund", "bodø", "skien", "haugesund", "tønsberg", "arendal", "porsgrunn", "hamar", "larvik", "moss", "sandefjord", "halden", "harstad", "lillehammer", "molde", "gjøvik", "mo+i+rana", "steinkjer", "alta", "lommedalen"},
 	},
 	"germany": QueryPreset{
 		include: []string{"germany", "deutschland", "berlin", "frankfurt", "munich", "münchen", "hamburg", "cologne", "köln"},
@@ -408,6 +411,7 @@ var PRESETS = map[string]QueryPreset{
 	},
 	"libya": QueryPreset{
 		include: []string{"libya", "tripoli", "benghazi", "misrata", "zliten", "bayda"},
+		exclude: []string{"lebanon", "greece", "gr"},
 	},
 	"slovakia": QueryPreset{
 		include: []string{"slovakia", "bratislava", "kosice", "presov", "zilina"},
@@ -428,7 +432,7 @@ var PRESETS = map[string]QueryPreset{
 		include: []string{"macedonia", "fyrom", "north+macedonia", "mk", "mkd", "ohd", "skp", "skopje", "bitola", "kumanovo", "prilep", "tetovo", "veles", "shtip", "ohrid", "gostivar", "strumica", "kavadarci", "negotino", "berovo", "kratovo", "struga", "valandovo", "demir+kapija", "demir+hisar", "krusheve", "gevgelija"},
 	},
 	"palestine": QueryPreset{
-		include: []string{"jerusalem", "gaza", "hebron", "jenin", "nablus", "ramallah", "rafah"},
+		include: []string{"palestine", "jerusalem", "gaza", "hebron", "jenin", "nablus", "ramallah", "rafah"},
 	},
 	"mauritania": QueryPreset{
 		include: []string{"mauritania", "mauritanie", "nouakchott", "nouadhibou"},
